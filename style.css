@@ -1,0 +1,448 @@
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo h1{
+    font-size: 30px;
+  
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.nav-links p{
+    font-size: 20px;
+}
+
+@media(max-width:600px){
+    .nav-links{
+        display: none;
+    }
+}
+
+.Visual-designer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+.visual-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:40px;
+    padding:0 50px;
+}
+
+.visual-text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+}
+
+.visual-text h1{
+    font-size: 50px;
+}
+
+.visual-text h3{
+    font-size: 20px;
+}
+
+.visual-text p{
+    font-size: 18px;
+}
+
+.visual-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visual-button button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding : 15px 40px;
+}
+
+.visual-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visual-image img{
+    width: 70%;
+}
+
+@media(max-width:1350px){
+    .Visual-designer{
+      
+        flex-direction: column;
+        gap:50px;
+    }
+
+    .visual-content{
+        width:100%;
+        align-items: center;
+    }
+
+    .visual-image{
+        width: 100%;
+    }
+}
+
+.company-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px 0;
+}
+
+#img1{
+    width : 115px;
+    height:40px;
+}
+
+#img2{
+    width: 85px;
+    height: 30px;
+}
+
+#img3{
+    width: 115px;
+    height: 15px;
+}
+
+#img4{
+    width: 40px;
+    height: 45px;
+}
+#img5{
+    width: 65px;
+    height: 40px;
+}
+
+@media(max-width:1350px){
+    .company-images{
+        flex-wrap: wrap;
+        gap:50px;
+    }
+}
+
+.design-cards{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+    padding: 0 100px;
+}
+
+.card img{
+    width: 124px;
+    height: 124px;
+}
+
+.card h1{
+    font-size: 20px;
+}
+
+.card p{
+    font-size: 16px;
+    text-align: center;
+}
+
+@media(max-width:1350px){
+    .design-cards{
+        flex-wrap: wrap;
+        gap:50px;
+    }
+}
+
+
+
+.latest-work{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:50px;
+}
+
+.latest-work h1{
+    font-size: 40px;
+}
+
+.project-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+.project-title img{
+    width: 400px;
+    height: 400px;
+}
+
+@media(max-width:1350px){
+    .project-title{
+        flex-wrap: wrap;
+        gap:50px;
+    }
+}
+
+@media(max-width:450px){
+    .project-title img{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+
+.Testimonial{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.Testimonial h1{
+    font-size: 40px;
+}
+
+.Testimonial-cards{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 100px;
+}
+
+.test-card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:20px;
+    padding: 60px;
+    background-color: #F3F3F3;
+}
+
+.test-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-content p{
+    font-size: 18px;
+}
+
+.test-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.test-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-image img{
+    width:50px;
+    height: 50px;
+}
+.test-stars{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+}
+
+.test-stars p{
+    font-size: 16px;
+}
+
+.test-stars h3{
+    font-size: 18px;
+}
+
+@media(max-width:1350px){
+    .Testimonial-cards{
+        flex-wrap: wrap;
+        gap:50px;
+        padding: 0;
+    }
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.footer-head{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 100px;
+}
+.footer-head h1{
+    font-size: 40px;
+}
+
+.footer-socialMedia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap:100px;
+    padding: 80px 100px;
+   
+    
+}
+
+.footer-content{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:40px;
+  
+}
+.footer-content p{
+    font-size: 18px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+
+.footer-icons img{
+    width:50px;
+    height:50px;
+}
+
+
+.footer-form{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 100px;
+    gap:30px;
+}
+
+.footer-form input{
+    padding:16px 24px 16px 24px;
+    width:500px;
+    height:60px;
+    outline:none;
+    border: none;
+    background-color: #F3F3F3;
+}
+
+.footer-form button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding : 15px 40px;
+}
+
+
+ 
+
+@media(max-width:1350px){
+
+    .footer-head{
+        justify-content: center;
+    }
+    .footer-socialMedia{
+        align-items: center;
+        flex-direction: column;
+        gap:50px;
+    }
+
+    .footer-content{
+        width: 100%;
+    }
+
+    .footer-form{
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        
+        
+
+    }
+
+
+    .footer-icons{
+        flex-wrap: wrap;
+        gap:50px;
+    }
+}
+
+@media(max-width:550px){
+    .footer-form input{
+        width:250px;
+    }
+}
